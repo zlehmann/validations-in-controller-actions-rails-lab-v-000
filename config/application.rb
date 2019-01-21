@@ -31,6 +31,9 @@ module ValidationsInControllerActionsRailsLab
 
     # Do not swallow errors in after_commit/after_rollback callbacks.
     #config.active_record.raise_in_transactional_callbacks = true
+<<<<<<< HEAD
     Rails.application.config.active_record.sqlite3.represent_boolean_as_integer = true
+=======
+>>>>>>> 2952f65464e04c2a3463d4afa5a29932674af511
   end
 end
